@@ -1,0 +1,33 @@
+body {
+  font-family: 'PT Sans', sans-serif;
+  font-family: 'PT Sans Caption', sans-serif;
+
+  background-image: url(http://zakharday.com/hse-lessons-static/dc-online-media-mockup.jpg);
+  background-size: 800px 20624px;
+  background-position: top center;
+  background-repeat: no-repeat;
+
+  width: 700px;
+
+  margin: 60px auto;
+}
+
+p {
+  font-size: 21px;
+  line-height: 26px;
+}
+
+h1 {
+  font-size: 40px;
+  line-height: 1.4em;
+  text-decoration: uppercase;
+}
+
+h1 + p {
+  color: rgba(0,0,0,.5);
+  font-size: 22px
+}
+
+h1 + p + p {
+  font-size: 19px;
+}
