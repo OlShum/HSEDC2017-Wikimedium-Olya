@@ -31,3 +31,11 @@ h1 + p {
 h1 + p + p {
   font-size: 19px;
 }
+
+a {
+  color: black;
+}
+
+h1*p*a {
+  color: rgba(0,0,0,.5);
+}
