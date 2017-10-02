@@ -2,12 +2,12 @@ body {
   font-family: 'PT Sans', sans-serif;
   font-family: 'PT Sans Caption', sans-serif;
 
-  background-image: url(http://zakharday.com/hse-lessons-static/dc-online-media-mockup.jpg);
+
   background-size: 800px 20624px;
   background-position: top center;
   background-repeat: no-repeat;
 
-  width: 700px;
+  width: 675px;
 
   margin: 60px auto;
 }
@@ -15,27 +15,75 @@ body {
 p {
   font-size: 21px;
   line-height: 26px;
+  margin: 40px auto;
 }
 
 h1 {
   font-size: 40px;
   line-height: 1.4em;
   text-decoration: uppercase;
+  margin-bottom: 0px;
 }
 
 h1 + p {
-  color: rgba(0,0,0,.5);
-  font-size: 22px
+  color: rgba(0,0,0,.3);
+  font-size: 22px;
+  line-height: inherit;
+  font-weight: bold;
+  margin-top: 0px;
 }
 
 h1 + p + p {
-  font-size: 19px;
+  font-size: 21px;
+  font-weight: 500;
 }
 
 a {
   color: black;
 }
 
-h1*p*a {
-  color: rgba(0,0,0,.5);
+a, a:visited {
+  color: inherit;
+}
+
+body {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+h2 {
+  font-size: 31px;
+  color: rgba(0,0,0,.8);
+  font-weight: bold;
+  margin-bottom: 0px;
+}
+
+h2 + p {
+  margin-top: 0px;
+}
+
+h3 {
+  font-size: 28px;
+  color: rgba(0,0,0,.8);
+  font-weight: bold;
+  margin-bottom: 0px;
+}
+
+h3 + p {
+  margin-top: 0px;
+}
+
+blockquote {
+  font-size: 21px;
+  line-height: 26px;
+  font-style: italic;
+}
+
+ul {
+  font-size: 21px;
+  line-height: 26px;
+}
+
+li {
+  margin-top: 17px;
 }
