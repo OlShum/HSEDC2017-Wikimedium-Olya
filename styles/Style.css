@@ -2,12 +2,12 @@ body {
   font-family: 'PT Sans', sans-serif;
   font-family: 'PT Sans Caption', sans-serif;
 
-
+  background-image: url(../img/mockup.jpg);
   background-size: 800px 20624px;
   background-position: top center;
   background-repeat: no-repeat;
 
-  width: 675px;
+  width: 700px;
 
   margin: 60px auto;
 }
@@ -21,7 +21,7 @@ p {
 h1 {
   font-size: 40px;
   line-height: 1.4em;
-  text-decoration: uppercase;
+  font-weight: bold;
   margin-bottom: 0px;
 }
 
@@ -44,11 +44,6 @@ a {
 
 a, a:visited {
   color: inherit;
-}
-
-body {
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
 }
 
 h2 {
