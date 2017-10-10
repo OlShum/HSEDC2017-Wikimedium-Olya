@@ -1,84 +1,76 @@
 body {
   font-family: 'PT Sans', sans-serif;
-  font-family: 'PT Sans Caption', sans-serif;
-
   background-image: url(../img/mockup.jpg);
   background-size: 800px 20624px;
   background-position: top center;
   background-repeat: no-repeat;
-
   width: 700px;
-
-  margin: 60px auto;
+  margin: 0 auto;
+  padding-top: 66px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
-p {
-  font-size: 21px;
-  line-height: 26px;
-  margin: 40px auto;
+h1, h2, h3 {
+  font-family: 'PT Sans Caption', sans-serif;
+  font-weight: bold;
 }
 
 h1 {
   font-size: 40px;
-  line-height: 1.4em;
+  line-height: 46px;
   font-weight: bold;
-  margin-bottom: 0px;
 }
 
 h1 + p {
-  color: rgba(0,0,0,.3);
+  color: rgba(0, 0, 0, .4);
+  font-family: 'Pt Sans Caption', sans-serif;
   font-size: 22px;
-  line-height: inherit;
-  font-weight: bold;
-  margin-top: 0px;
-}
-
-h1 + p + p {
-  font-size: 21px;
-  font-weight: 500;
-}
-
-a {
-  color: black;
-}
-
-a, a:visited {
-  color: inherit;
+  line-height: 32px;
 }
 
 h2 {
-  font-size: 31px;
-  color: rgba(0,0,0,.8);
-  font-weight: bold;
-  margin-bottom: 0px;
+  margin-top: 43px;
+  font-size: 32px;
+  line-height: 36px;
 }
 
 h2 + p {
-  margin-top: 0px;
+  margin-top: 7px;
 }
 
 h3 {
+  margin-top: 36px;
   font-size: 28px;
-  color: rgba(0,0,0,.8);
-  font-weight: bold;
-  margin-bottom: 0px;
+  line-height: 34px;
 }
 
-h3 + p {
-  margin-top: 0px;
+h3+p {
+  margin-top: 6px;
 }
 
-blockquote {
-  font-size: 21px;
-  line-height: 26px;
+p, blockquote {
+  font-size: 22px;
+  line-height: 34px;
+}
+
+p + p {
+  margin-top: 29px;
+}
+
+blockquote{
+  position: relative;
+  margin-top: 29px;
   font-style: italic;
 }
 
-ul {
-  font-size: 21px;
-  line-height: 26px;
-}
-
-li {
-  margin-top: 17px;
+blockquote::before {
+  content: '';
+  display: block;
+  position: absolute;
+  top: 0;
+  left: -20px;
+  width: 3px;
+  height: 100%;
+  background-color: rgba(0, 0, 0, .8);
 }
