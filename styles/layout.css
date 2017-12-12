@@ -1,6 +1,6 @@
 body {
   font-family: 'PT Sans', sans-serif;
-  background-image: url(../img/mockup.jpg);
+  /*background-image: url(../img/mockup.jpg);*/
   background-size: 800px 20624px;
   background-position: top center;
   background-repeat: no-repeat;
@@ -15,7 +15,44 @@ a {
   color: inherit;
 }
 
-h1, h2, h3, p, ul, blockquote {
+.sidebar{
+  position: fixed;
+  top: 46px;
+  left: 20px;
+  width: 300px;
+  opacity: .1;
+}
+
+.sidebar:hover{
+  opacity: 1;
+  transition: opacity .1s ease;
+}
+
+.sidebar li{
+  margin: 12px 0;
+  font-size: 14px;
+  line-height: 15px;
+  color: rgba (0, 0, 0, .8)
+}
+
+.sidebar > ul{
+  padding: 15px 30px;
+}
+
+.sidebar > ul > li:first-child{
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.sidebar > ul > li > ul {
+  padding-left: 10px;
+}
+
+.sidebar > ul > li > ul li {
+  color: rgba(0, 0 , 0, .6)
+}
+
+article{
   width: 700px;
   margin: 0 auto;
 }
@@ -58,21 +95,14 @@ h3+p {
   margin-top: 6px;
 }
 
-img {
+article img {
   display: block;
   width: 1020px;
   margin: 80px auto;
+  margin-left: -160px;
 }
 
-img + h2 {
-  margin-top: -1px;
-}
-
-img + p {
-  margin-top: -3px;
-}
-
-p, blockquote, ul {
+p, blockquote, article ul {
   font-size: 22px;
   line-height: 34px;
 }
@@ -98,11 +128,9 @@ blockquote::before {
   background-color: rgba(0, 0, 0, .8);
 }
 
-ul {
+article > ul {
   list-style: disc;
-  margin-top: 29px;
-  margin-bottom: 29px;
-  margin-left: 25px;
+  margin: 29 auto;
 }
 
 ol {
@@ -111,4 +139,8 @@ ol {
   line-height: 26px;
   margin-top: 29px;
   margin-left: 20px;
+}
+
+li{
+
 }
