@@ -6,9 +6,13 @@
 
   <link rel="stylesheet" href="styles/style.css">
 
+</div>
 </head>
 <body>
-    <nav>
+  <nav class="menubar">
+    <a href="" class="logo"></a>
+    <a href=""class="about">О проекте</a>
+  </nav>
       <nav class="sidebar">
         <ul>
           <li><a href="#s0">Дом Наркомфина</a></li>
@@ -201,8 +205,9 @@
 
     <article>
 
+<script type="text/javascript" src="JavaScripts/jquery-3.2.1.js"></script>
+
 <script type="text/javascript">
-  src="JavaScripts/jquery-3.2.1.js"
   $(function() {
     $('.sidebar a').each(function() {
       $(this).on('click', function(e) {
