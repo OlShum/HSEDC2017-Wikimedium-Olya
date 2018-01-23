@@ -1,0 +1,8 @@
+.screen {
+  hight: 100vh;
+  display: flex;
+}
+
+p {  
+  margin: auto;
+}

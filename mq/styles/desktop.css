@@ -1,0 +1,14 @@
+.screen {
+  height: 100vh;
+  display: flex;
+}
+
+.screen p {
+  margin: auto;
+  font-size: 32px;
+  display: none;
+}
+
+.screen .desktop {
+  display: block;
+}

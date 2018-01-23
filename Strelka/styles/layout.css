@@ -1,8 +1,14 @@
-  body {
+body {
   font-family: 'PT Sans', sans-serif;
+  /*background-image: url(../img/mockup.jpg);*/
+  /*background-size: 800px 20624px;
+  background-position: top center;
+  background-repeat: no-repeat;*/
+  /*width: 700px;
+  margin: 0 auto;*/
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  }
+}
 
 *{
   box-sizing: border-box;
@@ -13,90 +19,167 @@ a {
   text-decoration: none;
 }
 
-.Header-nav{
+.menubar{
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-aligh: center;
+  -ms-flex-align: center;
+  align-items: center;
+  height: 50px;
+  padding: 20px;
 }
 
-.Header-navLink{
-  color: #fff;
-  text-transform: uppercase;
-  margin-right: 28px;
+.logo{
+  display: block;
+  width: 180px;
+  height: 16px;
+  background-image: url(../img/wikimedium_logo.svg);
 }
 
-.Header{
-  position: absolute;
-  width: calc(100% - 240px);
-  height: 40px;
-  left: 50%;
-  transform: translate(-50%);
-  background: #006AFF;
-  padding: 12px 16px 14px;
-  top: 20px;
-
+.about{
+  font-size: 14px;
+  line-height: 50px;
+  color: rgba(0,0,0,.2);
+  -webkit-transition: color .1s ease;
+  transition: color .1s ease;
 }
 
- .Header-navLink.last-child{
-   margin-right: 0;
- }
-
-.Header-lang{
-  color: #fff;
-  text-transform: uppercase;
-  position: absolute;
-  right: 12px;
-  top: 50%;
-  transform: translateY(-50%);
+.about:hover{
+  color: rgba(0,0,0,.4);
 }
 
-.Intro{
-  height: 90vh;
-  background-image: url(../img/intro.jpg);
-  background-size: cover;
-  background-position: center;
-  display: flex;
+.sidebar{
+  position: fixed;
+  top: 46px;
+  left: 20px;
+  width: 300px;
+  opacity: .1;
+  -webkit-transition: opacity .2s ease;
+  transition: opacity .2s ease;
 }
 
-.Intro-title{
-  font-size: 110px;
-  line-height: 125px;
-  color: #fff;
-  width: 70%;
-  text-align: center;
-  text-transform: uppercase;
-  margin: auto;
+.sidebar:hover{
+  opacity: 1;
+  transition: opacity .1s ease;
 }
 
-.IntroLinkRow{
-  position:absolute;
-  bottom: 30px;
-  left: 50%;
-  transform: translateX(-50%);
-  color: #fff;
-  font-size: 27px;
+.sidebar li{
+  margin: 12px 0;
+  font-size: 14px;
+  line-height: 15px;
+  color: rgba(0, 0, 0, .8);
+}
+
+.sidebar > ul{
+  padding: 15px 30px;
+}
+
+.sidebar > ul > li:first-child{
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.sidebar > ul > li > ul {
+  padding-left: 10px;
+}
+
+.sidebar > ul > li > ul li {
+  color: rgba(0, 0 , 0, .4);
+}
+
+.sidebar > ul > li > ul li:hover {
+  color: rgba(0, 0 , 0, .4);
+}
+
+article{
+  width: 700px;
+  margin: 0 auto;
+}
+
+h1, h2, h3 {
+  font-family: 'PT Sans Caption', sans-serif;
+  font-weight: bold;
+}
+
+h1 {
+  font-size: 40px;
+  line-height: 46px;
+  font-weight: bold;
+}
+
+h1 + p {
+  color: rgba(0, 0, 0, .4);
+  font-family: 'Pt Sans Caption', sans-serif;
+  font-size: 22px;
   line-height: 32px;
-  text-transform: uppercase;
 }
 
-.Intro-link{
-  background: #006AFF;
-  padding: 4px 7px 2px;
-  transition: color .2s ease;
-  background: .2s ease;
+h2 {
+  margin-top: 43px;
+  font-size: 32px;
+  line-height: 36px;
 }
 
-.Intro-link:hover {
-  color: #006AFF;
-  background: #fff;
+h2 + p {
+  margin-top: 7px;
 }
 
-.Feature {
-  height: 640px;
-  display: flex;
+h3 {
+  margin-top: 36px;
+  font-size: 28px;
+  line-height: 34px;
 }
 
-.Feature-block {
-  width: 50%;
+h3+p {
+  margin-top: 6px;
+}
+
+article img {
+  display: block;
+  width: 1020px;
+  margin: 80px auto;
+  margin-left: -160px;
+}
+
+p, blockquote, article ul {
+  font-size: 22px;
+  line-height: 34px;
+}
+
+p + p, blockquote + p{
+  margin-top: 29px;
+}
+
+blockquote{
+  position: relative;
+  margin-top: 29px;
+  font-style: italic;
+}
+
+blockquote::before {
+  content: '';
+  display: block;
+  position: absolute;
+  top: 0;
+  left: -20px;
+  width: 3px;
   height: 100%;
-  background-size: cover;
-  background-position: center;
+  background-color: rgba(0, 0, 0, .8);
+}
+
+article > ul {
+  list-style: disc;
+  margin: 29 auto;
+}
+
+ol {
+  list-style: decimal;
+  font-size: 22px;
+  line-height: 26px;
+  margin-top: 29px;
+  margin-left: 20px;
 }

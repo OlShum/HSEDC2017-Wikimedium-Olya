@@ -1,0 +1,13 @@
+@media (max-width: 767px) {
+body{
+  background: yellow;
+}
+
+  .screen .desktop{
+    display: none;
+  }
+
+  .screen .mobile{
+    display: block;
+  }
+}

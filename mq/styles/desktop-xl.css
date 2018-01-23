@@ -1,0 +1,13 @@
+@media (min-width: 1441px) {
+  body{
+    background: blue;
+    }
+
+  .screen .desktop{
+    display: none;
+  }
+
+  .screen .desktop-xl{
+    display: block;
+  }
+}
