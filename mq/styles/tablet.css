@@ -1,13 +1,18 @@
 @media (min-width: 768px) and (max-width: 1023px) {
-  body {
-    background: red;
-  }
-
-  .screen .desktop {
+  .img .desktop {
     display: none;
   }
 
-  .screen .tablet {
+  .img .tablet {
+    display: block;
+    color: white;
+  }
+
+  .img .imgdesk {
+    display: none;
+  }
+
+  .img .imgtab {
     display: block;
   }
 }

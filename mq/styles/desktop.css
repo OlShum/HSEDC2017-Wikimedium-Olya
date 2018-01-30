@@ -1,14 +1,27 @@
-.screen {
+.img {
   height: 100vh;
   display: flex;
 }
 
-.screen p {
-  margin: auto;
+.img p {
   font-size: 32px;
   display: none;
+  position: absolute;
+  top: 50%;
+  left: 30%;
 }
 
-.screen .desktop {
+.img .desktop {
+  display: block;
+}
+
+.img img {
+  margin: auto;
+  display: none;
+  position: relative;
+  width: 50%;
+}
+
+.img .imgdesk{
   display: block;
 }

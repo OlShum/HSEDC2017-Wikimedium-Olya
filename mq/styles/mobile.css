@@ -1,13 +1,18 @@
 @media (max-width: 767px) {
-body{
-  background: yellow;
-}
-
-  .screen .desktop{
+  .img .desktop{
     display: none;
   }
 
-  .screen .mobile{
+  .img .mobile{
+    display: block;
+    color: red;
+  }
+
+  .img .imgdesk {
+    display: none;
+  }
+
+  .img .imgmob {
     display: block;
   }
 }
