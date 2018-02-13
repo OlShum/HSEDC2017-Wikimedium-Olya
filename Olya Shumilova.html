@@ -45,6 +45,27 @@
 
     <img src="img/narkomfin.jpg" alt="Наркомфин">
 
+    <section class="gallery">
+      <nav class="galleryNav">
+        <div class="disabled galleryNavItem" id="prev"></div>
+        <div class="galleryNavItem" id="next"></div>
+      </nav>
+      <section class="galleryRail">
+        <figure>
+          <img src="http://www.tema.ru/jjj/narcomfin/4F2C0395.jpg" alt="">
+        </figure>
+        <figure>
+          <img src="http://www.tema.ru/jjj/narcomfin/4F2C0418.jpg" alt="">
+        </figure>
+        <figure>
+          <img src="http://www.tema.ru/jjj/narcomfin/4F2C0416.jpg" alt="">
+        </figure>
+        <figure>
+          <img src="http://www.tema.ru/jjj/narcomfin/4F2C0519.jpg" alt="">
+        </figure>
+      </section>
+    </section>
+
     <h2 id="s1">История создания</h2>
     <p>Дом Наркомфина построен по проекту одного из идеольгов советского конструктивизма Моисея Гинзбурга, в соавторстве с архитектором Игнатием Милинисом и инженером Сергеем Прохоровым. Ранее, в конце 1925 года была образована творческая организация конструктивистов, названная <a href="https://ru.wikipedia.org/wiki/%D0%9E%D0%B1%D1%8A%D0%B5%D0%B4%D0%B8%D0%BD%D0%B5%D0%BD%D0%B8%D0%B5_%D1%81%D0%BE%D0%B2%D1%80%D0%B5%D0%BC%D0%B5%D0%BD%D0%BD%D1%8B%D1%85_%D0%B0%D1%80%D1%85%D0%B8%D1%82%D0%B5%D0%BA%D1%82%D0%BE%D1%80%D0%BE%D0%B2"target="_blank">Объединением современных архитекторов</a> (ОСА). Эта организация оказала значительное влияние на развиие теоретической мысли и ряж наработанных в ней решений позднее был использован при строительстве жилого комплекса.</p>
 
@@ -205,22 +226,10 @@
 
     <article>
 
-<script type="text/javascript" src="JavaScripts/jquery-3.2.1.js"></script>
+<script type="text/javascript" src="JavaScripts/jquery-3.3.1.js"></script>
+<script type="text/javascript" src="JavaScripts/navigation.js"></script>
+<script type="text/javascript" src="JavaScripts/slider.js"></script>
 
-<script type="text/javascript">
-  $(function() {
-    $('.sidebar a').each(function() {
-      $(this).on('click', function(e) {
-        e.preventDefault();
-        var scrollTo = $(this).attr('href');
-        var whitespace = scrollTo == '#s1' ? 70 : 30
-        $('html,body').animate({
-          scrollTop: $(scrollTo).offset().top - whitespace
-        }, 1000);
-      });
-    });
-  });
-</script>
 
 </body>
 </html>

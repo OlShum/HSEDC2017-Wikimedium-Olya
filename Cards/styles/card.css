@@ -1,0 +1,49 @@
+body{
+font-family: 'PT Sans', sans-serif;
+font-weight: bold;
+font-size: 15px;
+}
+
+.container{
+  width: calc(100% - 200px);
+  height: 100vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+  flex-wrap: wrap;
+  align-items: baseline;
+}
+
+ .card:hover {
+  width: 400px;
+}
+
+.card{
+  margin: 5px;
+  width: 300px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.5);
+  transition: width .3s;
+}
+
+.card-text{
+padding: 20px;
+}
+
+.card-image{
+  height: 300px;
+  background-size: cover;
+  background-position: center;
+}
+
+.image-1{
+  background-image: url(../photos/EfelTower.jpg);
+}
+
+.image-2{
+  background-image: url(../photos/tyuilri.jpg);
+}
+
+.image-3{
+  background-image: url(../photos/Mon.jpg);
+}

@@ -1,0 +1,14 @@
+.screen {
+ height: 100vh;
+ display: flex;
+}
+
+.slider {
+  width: 500px;
+  height: 300px;
+  margin: auto;
+}
+
+.slider > div{
+  height: 100%;
+}
