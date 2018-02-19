@@ -1,0 +1,33 @@
+.video {
+  position:flex;
+  padding-bottom:56.25%;
+  padding-top:25px;
+  height:0;
+}
+
+.video iframe {
+  position:absolute;
+  top:0;
+  left:0;
+  width:100%;
+  height:100%;
+}
+
+.video div {
+  position: centr
+
+}
+
+.video .Travel {
+  display: block;
+  font-family: 'PT Sans', sans-serif;
+  font-size: 300px;
+  width: 100%;
+  font-weight: bold;
+  color: white;
+  position: absolute;
+  margin: 0 auto;
+  z-index: 1;
+  text-align: center;
+  top: 50%;
+}
