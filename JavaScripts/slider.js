@@ -10,7 +10,7 @@ $(function() {
   }
 
   function canMovePrev() {
-    return state.currentImage != 1;
+    return state.currentImage >= 0;
   }
 
   function railTransition() {

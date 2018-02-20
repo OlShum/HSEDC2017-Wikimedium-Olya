@@ -13,10 +13,10 @@
 
 <section class="screen">
   <div class="slider">
-    <div class="slider-image1"> <img src="Photos/1JPG" alt=""> </div>
-    <div class="slider-image2"> <img src="Photos/2JPG" alt=""> </div>
-    <div class="slider-image3"> <img src="Photos/3JPG" alt=""> </div>
-    <div class="slider-image4"> <img src="Photos/4JPG" alt=""> </div>
+    <div class="slider-image1"></div>
+    <div class="slider-image2"></div>
+    <div class="slider-image3"></div>
+    <div class="slider-image4"></div>
   </div>
 </section>
 
@@ -25,10 +25,8 @@
 <script type="text/javascript" src="slick/slick.min.js"></script>
 
 <script type="text/javascript">
-   $(.slider).ready(.slick(){
-     $('.slider').slick({
-       setting-name: setting-value
-     });
+   $(function() {
+     $('.slider').slick();
    });
  </script>
 

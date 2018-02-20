@@ -9,6 +9,23 @@
   margin: auto;
 }
 
-.slider > div{
+.slider > div {
   height: 100%;
+  background-size: cover;
+}
+
+.slider-image1 {
+  background-image: url(../Photos/1.JPG);
+}
+
+.slider-image2 {
+  background-image: url(../Photos/2.JPG);
+}
+
+.slider-image3 {
+  background-image: url(../Photos/3.JPG);
+}
+
+.slider-image4 {
+  background-image: url(../Photos/4.JPG);
 }
