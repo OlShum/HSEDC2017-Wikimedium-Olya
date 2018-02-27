@@ -78,3 +78,15 @@
   width: 1020px;
   margin: 0 auto;
 }
+
+.gallery figcaption {
+  height: 51px;
+  font-size: 14px;
+  line-height: 50px;
+  text-align: center;
+  color: rgba(0, 0, 0, .4)
+}
+
+.gallery figcaption a {
+  text-decoration: underline;
+}
