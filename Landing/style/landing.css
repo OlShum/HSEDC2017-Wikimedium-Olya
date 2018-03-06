@@ -1,3 +1,9 @@
+body{
+  background-color: #fafafa;
+  font-family: 'Pt Sans', sans-serif;
+  font-weight: normal;
+}
+
 .LandingPage {
   display: flex;
   flex-direction: column;
@@ -7,12 +13,13 @@
 
 body .menubar{
   position: fixed;
+  display: flex;
   top: 0;
   left: 0;
   z-index: 1;
   width: 100%;
   min-width: 768px;
-  max-width: 1440px;
+  /*max-width: 1440px;*/
   margin: 0 auto;
   background-color: white;
   box-shadow: 0 2px 4px 0 rgba(0,0,0,.05);
@@ -23,10 +30,11 @@ body .menubar{
   width: 1440px;
   height: 800px;
   overflow: hidden;
+  background-color: white;
+  box-shadow: 0 0px 10px 0 rgba(0,0,0,.05);
 }
 
 .sections section {
-  font-family: 'PT Sans Caption', sans-serif;
   position: absolute;
   top: 147px;
 }
@@ -50,8 +58,12 @@ body .menubar{
 }
 
 .sections.center section nav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   margin-top: 70px;
-  font-size: 0;
+  height: 50px;
+  width: 1440px;
 }
 
 .sections.center section nav a {
@@ -78,18 +90,23 @@ body .menubar{
 }
 
 .sections.center section nav .green {
+  font-family: 'PT Sans Caption', sans-serif;
+  font-weight: normal;
+  font-weight: bold;
   width: 300px;
-    height: 50px;
-    line-height: 50px;
-    font-size: 17px;
-    font-weight: bold;
-    background-color: #64f364;
-    border-color: #00C000;
+  height: 50px;
+  line-height: 50px;
+  font-size: 17px;
+  font-weight: bold;
+  background-color: #64f364;
+  border-color: #00C000;
 }
 
 .sections h2 {
   font-size: 36px;
   line-height: 46px;
+  font-family: 'PT Sans Caption',sans-serif;
+  font-weight: normal;
 }
 .sections p{
   margin-top: 21px;
@@ -119,10 +136,10 @@ body .menubar{
 
 #mockup1 {
   top: 115px;
-    right: -116px;
-    width: 732px;
-    height: 660px;
-    background-image: url(../img/landing-mockup-1.jpg);
+  right: -116px;
+  width: 732px;
+  height: 660px;
+  background-image: url(../img/landing-mockup-1.jpg);
 }
 
 #mockup2 {
