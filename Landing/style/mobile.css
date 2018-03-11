@@ -1,0 +1,88 @@
+@media (max-width: 767px) {
+  .sections{
+    height: 1100px;
+    width: 100%;
+    display: flex;
+  }
+
+  .sections section {
+    top: 25px;
+  }
+
+  .sections h2 {
+    font-size: 35px;
+    line-height: 45px;
+  }
+
+  .sections p{
+    font-size: 20px;
+    line-height: 37px;
+  }
+
+  .sections.left section {
+    left: 10px;
+    display: block;
+    position: absolute;
+  }
+
+  .sections.right section {
+    left: 10px;
+    right: 0;
+    display: block;
+    position: absolute;
+  }
+
+  .sections.center {
+    height: 700px
+  }
+
+  .sections.center section {
+    left: 10px;
+    right: 10px;
+    top: 50px;
+  }
+
+  .sections.center section nav {
+    width: 100%;
+  }
+
+  .LandingPage section .pattern {
+    margin-top: 25px;
+  }
+
+  .sections.right section .pattern {
+    margin-left: -60px;
+  }
+
+  #mockup1 {
+    display: block;
+    position: absolute;
+    top: 390px;
+    right: 0;
+    width: 100%;
+  }
+
+  #mockup2 {
+    display: block;
+    position: absolute;
+    top: 420px;
+    right: 0;
+    width: 100%;
+  }
+
+  #mockup3 {
+    display: block;
+    position: absolute;
+    top: 450px;
+    left: 10px;
+    width: 100%;
+  }
+
+  .LandingPage footer {
+    bottom: 0px;
+  }
+
+
+
+
+}
