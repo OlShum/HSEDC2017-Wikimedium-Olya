@@ -4,12 +4,17 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Document</title>
+  <title>js basics</title>
 
-  <style media="screen">
+  <style>
   body {
-    background-color: #000;
+    background-image: url(pics/zero.jpg);
     height: 100vh;
+    transition: background .3s ease;
+  }
+
+  body.one{
+    background-image: url(pics/one.jpg);
   }
 
   .circle {
@@ -23,16 +28,18 @@
 
 </head>
 <body>
-  <div class="circle">
-  </div>
+  <div class="circle"></div>
 
+  <script type="text/javascript"> scr "jquery-3.3.1.min.js"</script>
 
+  <script>
+  $(document).ready(function(){
+    $('.circle').click(function(){
+      $('body').toggleClass("one");
 
+    });
+  });
 
-
-  <script type="text/javascript"> scr ""
-
-  }
   </script>
 
 </body>
