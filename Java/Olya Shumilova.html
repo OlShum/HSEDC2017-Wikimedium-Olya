@@ -4,43 +4,43 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+  <link rel="stylesheet" href="styles/style.css">
+
   <title>js basics</title>
 
   <style>
-  body {
-    background-image: url(pics/zero.jpg);
-    height: 100vh;
-    transition: background .3s ease;
-  }
 
-  body.one{
-    background-image: url(pics/one.jpg);
-  }
 
-  .circle {
-    width: 100px;
-    height: 100px;
-    background-color: #fff;
-    border-radius: 50%;
-  }
 
   </style>
 
 </head>
 <body>
-  <div class="circle"></div>
+  
+  <header class="header">
+    <nav class="header-nav">
+      <a href="" class="header-scroller">Home</a>
+      <a href="" class="header-scroller">About</a>
+      <a href="" class="header-scroller">Contacts</a>
+    </nav>
 
-  <script type="text/javascript"> scr "jquery-3.3.1.min.js"</script>
+    <div class="header-mobilebutton"></div>
 
-  <script>
-  $(document).ready(function(){
-    $('.circle').click(function(){
-      $('body').toggleClass("one");
+    <div class="header-mobilemenu">
+      <nav class="headermobile-nav">
+        <a href="" class="header-scroller">Home</a>
+        <a href="" class="header-scroller">About</a>
+        <a href="" class="header-scroller">Contacts</a>
+      </nav>
+    </div>
 
-    });
-  });
+    <span class="header-cross"></span>
 
-  </script>
+  </header>
+
+
+  <script src="Scripts/jquery-3.3.1.js"></script>
 
 </body>
 </html>
