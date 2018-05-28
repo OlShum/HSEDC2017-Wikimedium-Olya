@@ -1,0 +1,13 @@
+* {
+  box-sizing: border-box;
+  -webkit-transition: all .5s ease-in-out;
+  transition: all .5s ease-in-out;
+}
+
+html, body {
+  height: 100%;
+  margin: 0;
+  font-family: 'Conv_A2-Type_New_Rail_Alphabet_White', Helvetica, Arial, sans-serif;
+  font-size: 36px;
+  line-height: 1.4;
+}

@@ -1,0 +1,29 @@
+@font-face {
+  font-family: 'Conv_A2-Type_New_Rail_Alphabet_White';
+  src: url('../fonts/A2-Type_New_Rail_Alphabet_White.eot');
+  src: url('../fonts/A2-Type_New_Rail_Alphabet_White.woff') format('woff'),
+       url('../fonts/A2-Type_New_Rail_Alphabet_White.ttf') format('truetype'),
+       url('../fonts/A2-Type_New_Rail_Alphabet_White.svg') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Conv_A2-Type_New_Rail_Alphabet_Bold';
+  src: url('../fonts/A2-Type_New_Rail_Alphabet_Bold.eot');
+  src: url('../fonts/A2-Type_New_Rail_Alphabet_Bold.woff') format('woff'),
+       url('../fonts/A2-Type_New_Rail_Alphabet_Bold.ttf') format('truetype'),
+       url('../fonts/A2-Type_New_Rail_Alphabet_Bold.svg') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Conv_A2-Type_New_Rail_Alphabet_Medium';
+  src: url('../fonts/A2-Type_New_Rail_Alphabet_Medium.eot');
+  src: url('../fonts/A2-Type_New_Rail_Alphabet_Medium.woff') format('woff'),
+       url('../fonts/A2-Type_New_Rail_Alphabet_Medium.ttf') format('truetype'),
+       url('../fonts/A2-Type_New_Rail_Alphabet_Medium.svg') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
